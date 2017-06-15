@@ -1,27 +1,28 @@
-package com.invisible.manyfonts.fonts;
+package com.invisible.manyfonts.fonts.EditText.Bold;
 
 import android.content.Context;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
-import android.widget.TextView;
+import android.widget.CheckBox;
+import android.widget.EditText;
 
 /**
  * Created by mind on 7/6/17.
  */
 
-public class VerdanaBoldTextView extends TextView {
+public class Verdana extends EditText {
 
-    public VerdanaBoldTextView(Context context, AttributeSet attrs, int defStyle) {
+    public Verdana(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         init();
     }
 
-    public VerdanaBoldTextView(Context context, AttributeSet attrs) {
+    public Verdana(Context context, AttributeSet attrs) {
         super(context, attrs);
         init();
     }
 
-    public VerdanaBoldTextView(Context context) {
+    public Verdana(Context context) {
         super(context);
         init();
     }

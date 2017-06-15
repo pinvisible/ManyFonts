@@ -1,33 +1,34 @@
-package com.invisible.manyfonts.fonts;
+package com.invisible.manyfonts.fonts.RadioButton;
 
 import android.content.Context;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
+import android.widget.EditText;
 import android.widget.RadioButton;
 
 /**
  * Created by mind on 7/6/17.
  */
 
-public class VerdanaRadioButton extends RadioButton {
+public class Times extends RadioButton {
 
-    public VerdanaRadioButton(Context context, AttributeSet attrs, int defStyle) {
+    public Times(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         init();
     }
 
-    public VerdanaRadioButton(Context context, AttributeSet attrs) {
+    public Times(Context context, AttributeSet attrs) {
         super(context, attrs);
         init();
     }
 
-    public VerdanaRadioButton(Context context) {
+    public Times(Context context) {
         super(context);
         init();
     }
 
     public void init() {
-        Typeface tf = Typeface.createFromAsset(getContext().getAssets(), "fonts/verdana.ttf");
+        Typeface tf = Typeface.createFromAsset(getContext().getAssets(), "fonts/Typography Times Regular.ttf");
         setTypeface(tf);
 
     }

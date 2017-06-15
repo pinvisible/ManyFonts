@@ -1,27 +1,28 @@
-package com.invisible.manyfonts.fonts;
+package com.invisible.manyfonts.fonts.RadioButton;
 
 import android.content.Context;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.widget.EditText;
+import android.widget.RadioButton;
 
 /**
  * Created by mind on 7/6/17.
  */
 
-public class VerdanaEditText extends EditText {
+public class Verdana extends RadioButton {
 
-    public VerdanaEditText(Context context, AttributeSet attrs, int defStyle) {
+    public Verdana(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         init();
     }
 
-    public VerdanaEditText(Context context, AttributeSet attrs) {
+    public Verdana(Context context, AttributeSet attrs) {
         super(context, attrs);
         init();
     }
 
-    public VerdanaEditText(Context context) {
+    public Verdana(Context context) {
         super(context);
         init();
     }
